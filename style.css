@@ -1,48 +1,194 @@
-.main{
-    height: 450px;
-    width: 350px;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mean{
+    height: auto;
+    width: 95%;
     margin: auto;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: lightpink;
 }
 
-.main .heading{
-    width: 350px;
+.header{
     height: 50px;
-    background-color: lightseagreen;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: springgreen;
+}    
+
+ .logo{
+    height: 50px;
+    width: 15%;
+    margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 24px;
 }
 
-.main .form{
-    width: 350px;
-    height: 400px;
-    background-color: lightslategray;
+.menu{
+    height: 50px;
+    width: 25%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
 }
 
-.main .form form{
-    height: 100%;
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-shadow: 1px 4px  rgb(216, 90, 0);
+    color: lavender;
+}
+
+.menaposter{
+    height: 300px;
     width: 100%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(rgb(224, 163, 174),rgb(179, 211, 226));
+
 }
 
-.main .form form .innerDiv{
-    width: 100%;
+button{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    background-color: rgb(41, 196, 243);
+}
 
+.poster{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: linear-gradient(rgb(197, 92, 144),rgb(146, 96, 240));
+
+}
+
+/* .hedposter h2{
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgb(230, 8, 8);
+    
+    flex-direction: row;
+} */
+ .left{ 
+    height: 350px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    height: 300px;
+    width: 100%;
+}
+
+.right{
+    height: 350px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.frome{
+    height: 350px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.fromet{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(rgb(224, 163, 174),rgb(179, 211, 226));
+}
+
+.photowalaposter{
+    height: 500px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.main .form form .innerDiv input{
-    padding: 5px 16px;
-    background-color: lightsteelblue;
+.photowalaposter{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(rgb(204, 243, 114),rgb(36, 178, 214));
+}
+
+.ar{
+    height: 200px;
+    width: 22%;
+    border-radius: 50%;
+}
+
+.ar img{
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.footer{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(173, 223, 247);
+   
+}
+
+.moon{
+    height: 100px;
+    width: 45%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.son{
+    height: 100px;
+    width: 45%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+h3{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
